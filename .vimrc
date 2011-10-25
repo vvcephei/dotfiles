@@ -1,0 +1,9 @@
+syn on
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+set hlsearch
+set mouse=a
