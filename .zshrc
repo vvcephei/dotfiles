@@ -69,15 +69,17 @@ alias vpnon="sudo vpnc-connect Bazaar"
 alias vpnoff="sudo vpnc-disconnect"
 alias vims="vim --servername VS1"
 alias vimr="vim --servername VS1 --remote "
+alias vim="vim -p"
 
 IDEA_JDK=/opt/jdk1.6.0_27
 export UPDOWN_DIR=$HOME/repos/updown
 export SCALABHA_DIR=$HOME/repos/scalabha
 export LDMT_MURI_DIR=$HOME/repos/ldmt-muri
 PATH=$PATH:$HOME/bin:$UPDOWN_DIR/bin:$SCALABHA_DIR/bin
+#PATH=$PATH:~/repos/node/build/default
+export PATH=$PATH:$HOME/local/bin
 
-
+echo "[32;40m"
 echo "Welcome, John,
 
 `fortune`" | cowsay -f eyes
-
