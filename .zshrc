@@ -75,9 +75,11 @@ IDEA_JDK=/opt/jdk1.6.0_27
 export UPDOWN_DIR=$HOME/repos/updown
 export SCALABHA_DIR=$HOME/repos/scalabha
 export LDMT_MURI_DIR=$HOME/repos/ldmt-muri
-PATH=$PATH:$HOME/bin:$UPDOWN_DIR/bin:$SCALABHA_DIR/bin
+#export FIASANA_DIR=$HOME/repos/fiasana
+PATH=$PATH:$HOME/bin:$UPDOWN_DIR/bin:$SCALABHA_DIR/bin #:$FIASANA_DIR/bin
 #PATH=$PATH:~/repos/node/build/default
 export PATH=$PATH:$HOME/local/bin
+export PATH=$PATH:/opt/mongo/bin
 
 echo "[32;40m"
 echo "Welcome, John,
