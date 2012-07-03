@@ -63,7 +63,7 @@ RPS1="$PR_LIGHT_YELLOW(%D{%m-%d %H:%M})$PR_NO_COLOR"
 # General Settings
 PAGER='less'
 EDITOR='vim'
-alias ls='ls --color=auto '
+#alias ls='ls --color=auto '
 alias man='LC_ALL=C LANG=C man'
 alias vpnon="sudo vpnc-connect Bazaar"
 alias vpnoff="sudo vpnc-disconnect"
@@ -72,14 +72,17 @@ alias vimr="vim --servername VS1 --remote "
 alias vim="vim -p"
 
 IDEA_JDK=/opt/jdk1.6.0_27
+export MAVEN_OPTS="-Xmx1024M"
 export UPDOWN_DIR=$HOME/repos/updown
 export SCALABHA_DIR=$HOME/repos/scalabha
 export LDMT_MURI_DIR=$HOME/repos/ldmt-muri
+export MYSQL_HOME=/usr/local/mysql
 #export FIASANA_DIR=$HOME/repos/fiasana
 PATH=$PATH:$HOME/bin:$UPDOWN_DIR/bin:$SCALABHA_DIR/bin #:$FIASANA_DIR/bin
 #PATH=$PATH:~/repos/node/build/default
 export PATH=$PATH:$HOME/local/bin
 export PATH=$PATH:/opt/mongo/bin
+export PATH=$PATH:/usr/local/mysql/bin
 
 echo "[32;40m"
 echo "Welcome, John,
